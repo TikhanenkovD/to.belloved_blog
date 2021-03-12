@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <img src="" alt="main-logo" class="header__logo" />
+    <h1 class="header__logo">to.belloved</h1>
     <nav>
       <router-link to="/home">Home</router-link>
       <router-link to="/home">About</router-link>

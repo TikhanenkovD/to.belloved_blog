@@ -1,4 +1,16 @@
-.header{
+.header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: (16rem/16) 7.5%;
+
+  &__logo {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: (25rem/16);
+    line-height: 33px;
+    letter-spacing: 2.5px;
+    color: #171717;
+  }
 }

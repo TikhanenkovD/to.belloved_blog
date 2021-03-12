@@ -1,13 +1,13 @@
 <template>
-<div></div>
+  <slider></slider>
 </template>
 
 <script>
+import Slider from "@/components/slider/slider";
 export default {
-name: "home-page"
-}
+  name: "home-page",
+  components: { Slider }
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
